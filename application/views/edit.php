@@ -112,7 +112,7 @@
 							<div class="date">
 								<div class="depart">
 									<h3>Depart</h3>
-									<input class="date" id="datepicker2" name="depart" type="text" value="<?php echo $r->depart_on ?>" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="true">
+									<input class="date" id="datepicker2" name="depart" type="text" value="<?php echo $r->depart_at ?>" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="true">
 									<span class="checkbox1">
 										<label class="checkbox"><input type="checkbox" name="" checked=""><i> </i>Flexible with date</label>
 									</span>

@@ -49,12 +49,12 @@ class Insert extends CI_Controller{
 		$ruteid = $this->input->post('ruteid');
 		$from = $this->input->post('from');
 		$to = $this->input->post('to');
-		$depart_on = $this->input->post('depart');
+		$depart_at = $this->input->post('depart');
 		$price = $this->input->post('prices');
 		$data = array(
 			'rute_from' => $from,
 			'rute_to' => $to,
-			'depart_on' => $depart_on,
+			'depart_at' => $depart_at,
 			'price' => $price
 		);
 		$where = array(
